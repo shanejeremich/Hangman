@@ -4,12 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hangman</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
     <link rel="shortcut icon" href="#" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Hangman</h1>
-    <p>Find the hidden word - Enter a letter</p>
+    <h1>Movies Hangman</h1>
+    <p>Top Movies from 2019 - Pick a Letter or Number - Try to guess the Movie!</p>
     <div class="game-container">
       <svg height="250" width="200" class="figure-container">
         <!-- Rod -->
@@ -44,7 +50,7 @@
     <div class="popup-container" id="popup-container">
       <div class="popup">
         <h2 id="final-message"></h2>
-        <button id="play-button">Play Again</button>
+        <button id="play-button" class="play-btn">Play Again</button>
       </div>
     </div>
 
@@ -52,6 +58,18 @@
     <div class="notification-container" id="notification-container">
       <p>You have already entered this letter</p>
     </div>
-    <script src="script.js"></script>
+
+    <!-- Hint -->
+    <span id="hint" class="hint">
+      <h1>💡 Hint ❓</h1>
+    </span>
+    <div id="hint-container" class="hint-container">
+      <div id="cta-close-btn" class="fa fa-times fa-2x"></div>
+
+      <p id="hint-content" class="hint-content"></p>
+    </div>
+
+    <!-- End -->
+    <script src="script.js" type="module"></script>
   </body>
 </html>
