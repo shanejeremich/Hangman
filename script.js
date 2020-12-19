@@ -36,8 +36,7 @@ const wrongLetters = [];
         let i = Math.floor(Math.random() * movies.length);
         selectedMovie = movies[i];
         selectedOverview = overview[i];
-        console.log(selectedMovie);
-        console.log(selectedOverview);
+
         displayWord();
       });
   } catch (err) {
