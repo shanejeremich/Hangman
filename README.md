@@ -1,12 +1,12 @@
-# Expense Tracker
+# Hangman
 
-You can find the deployed project at [Expense Tracker](https://sjeremich23.github.io/Expense-Tracker/)
+You can find the deployed project at [Hangman](https://sjeremich23.github.io/Hangman/)
 
 ## Overview
 
-Simple program to track expenses
+This project follows the rules of hangman. Press a letter or number to try and guess the title of the movie. Click on hint for more information on the movie. This project fetches movies from an API movie database for popular titles from 2019.
 
-![Expense Tracker](/images/expensetracker.jpg)
+![Expense Tracker](/images/hangman.jpg)
 
 <br>
 
@@ -29,13 +29,17 @@ Simple program to track expenses
 ## Key Features
 
 - HTML / CSS / Javascript
-- Add expenses/income and it will automatically calculate the total
-- Shows history of expenses and income
-- Persists through Local Storage
+- Dynamically draws hangman as incorrect inputs are entered
+- Shows overview of movie in the hints section by clicking on it
+- Movie titles are fetched from the API
 
-#### Front end deployed to `GitHub Pages`
+### Front end deployed to `GitHub Pages`
 
-> [Expense Tracker](https://sjeremich23.github.io/Expense-Tracker/)
+> [Hangman](https://sjeremich23.github.io/Hangman/)
+
+## API
+
+- [The Movie DB](https://api.themoviedb.org)
 
 # Installation Instructions
 
