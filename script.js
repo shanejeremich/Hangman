@@ -1,4 +1,4 @@
-import { apiKey, url } from "/api.js";
+import { apiKey, url } from "Hangman/api.js";
 
 const wordEl = document.getElementById("word");
 const wrongLettersEl = document.getElementById("wrong-letters");
