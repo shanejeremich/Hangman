@@ -44,3 +44,5 @@ This project follows the rules of hangman. Press a letter or number to try and g
 # Installation Instructions
 
 - Fork and clone the repo to install it as your own remote.
+- Set up your project/file architecture however you want
+- Start coding!
