@@ -1,6 +1,6 @@
 # Hangman
 
-You can find the deployed project at [Hangman](https://sjeremich23.github.io/Hangman/)
+You can find the deployed project at [Hangman](https://shanejeremich.github.io/Hangman/)
 
 ## Overview
 
@@ -12,9 +12,9 @@ This project follows the rules of hangman. Press a letter or number to try and g
 
 ## Contributors
 
-|                                        [Shane Jeremich](https://github.com/sjeremich23)                                        |
+|                                        [Shane Jeremich](https://github.com/shanejeremich)                                        |
 | :----------------------------------------------------------------------------------------------------------------------------: |
-|                         [<img src="images/shane.png" width = "200" />](https://github.com/sjeremich23)                         |
+|                         [<img src="[images/shane.png](https://avatars.githubusercontent.com/u/51142646?v=4)" width = "200" />](https://github.com/shanejeremich)                         |
 |                    [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/sjeremich23)                    |
 | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/shanejeremich/) |
 
@@ -35,7 +35,7 @@ This project follows the rules of hangman. Press a letter or number to try and g
 
 ### Front end deployed to `GitHub Pages`
 
-> [Hangman](https://sjeremich23.github.io/Hangman/)
+> [Hangman](https://shanejeremich.github.io/Hangman/)
 
 ## API
 
